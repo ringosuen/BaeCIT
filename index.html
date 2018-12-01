@@ -17,35 +17,34 @@ body {
 #top_logo_title_section {
   width: 100%;
   height: 4em;
-  background-color: rgb(30, 100, 230);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 #top_logo_wrap {
   width: 10em;
   height: 100%;
-  background-color: red;
+  background-color: rgba(255, 255, 255, 0.5);
   float: left;
 }
 
 #company_logo {
   width: auto;
   height: 100%;
-
+  float: left;
 }
 
 #top_title_wrap {
   width: 20em;
   height: 100%;
-  margin: 0 auto;
-  text-align: center;
-  background-color: teal;
+  float: left;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 /**Navigation bar styling.**/
 #navigation_bar {
   width: 100%;
   height: 4em;
-  background-color: darkkhaki;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 #left_navigation_button {
@@ -56,8 +55,8 @@ body {
   width: 7em;
   height: 100%;
   margin: 0;
-  background-color: #555555;
-  border-color: #555555;
+  background-color: rgb(50, 119, 209);
+  border-color: rgb(50, 119, 209);
   color: white;
   font-size: 16pt;
   font-weight: bold;
@@ -71,15 +70,87 @@ body {
   cursor: pointer;
 }
 
+#middle_gallery_section {
+  width: 100%;
+  height: 26em;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#middle_left_scroll_wrap {
+  width: 20%;
+  height: 100%;
+  background-color: rgb(120, 111, 33);
+  float: left;
+}
+
+#middle_left_scroll {
+  margin: 0 auto;
+}
+
+#middle_picture_wrap {
+  width: 60%;
+  height: 100%;
+  background-color: rgb(255, 0, 0);
+  float: left;
+}
+
+#middle_right_scroll_wrap {
+  width: 20%;
+  height: 100%;
+  background-color: rgba(0, 255, 0, 0.5);
+  float: left;
+}
+
+#middle_right_scroll {
+  margin: 0 auto;
+}
+
+.middle_scroll_button {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.middle_scroll_button:hover {
+  width: 104px;
+  height: 104px;
+  cursor: pointer;
+}
+
+.div_scroll_wrap {
+  width: 33%;
+  margin: 0 auto;
+  margin-top: 50%;
+  border-radius: 50%;
+}
+
+.div_girl {
+  width: 400px;
+  height: 400px;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+.img_girl {
+  width: 360px;
+  height: 375px;
+}
+
+#bottom_profile_select {
+  width: 100%;
+  height: 11em;
+  background-color: rgba(210, 211, 33, 0.6);
+}
+
 </style>  
 </head>
 <body>
 <header id="top_logo_title_section">
   <div id="top_logo_wrap">
-    <img src="https://dummyimage.com/100x100/000/fff" alt="Company logo" id="company_logo"/>
+    <img src="./images/logo.png" alt="Company logo" id="company_logo"/>
   </div>
   <div id="top_title_wrap">
-    <h1>Dating Site Title Here</h1>
+    <h1 id="site_title">&nbsp;BaeCIT</h1>
   </div>
 </header>
 <nav id="navigation_bar">
@@ -89,10 +160,30 @@ body {
   <button class="navigation_button">Testimonials</button>
   <button class="navigation_button">About</button>
 </nav>
+<!--Middle section of page-->
 <section id="middle_gallery_section">
+  <div id="middle_left_scroll_wrap">
+    <div class="div_scroll_wrap">
+      <img src="./images/ArrowL.png" alt="Left Arrow" id="middle_left_scroll" class="middle_scroll_button"/>
+    </div>
+  </div>
+  <div id="middle_picture_wrap">
+    <div class="div_girl">
+      <img src="./images/bae1.jpg" alt="a bae" id="bae1" class="img_girl"/>
+    </div>
+    <!--wrap name container, pictures, div class="div_girl" img class="img_girl" p class="name_girl" -->
+  </div>
+  <div id="middle_right_scroll_wrap">
+    <div class="div_scroll_wrap">
+      <img src="./images/ArrowR.png" alt="Right Arrow" id="middle_right_scroll" class="middle_scroll_button"/>
+    </div>
+  </div>
 </section>
 
 <section id="bottom_profile_select">
+  <div id="bottom_left_scroll_wrap"></div>
+  <div id="bottom_picture_wrap"></div>
+  <div id="bottom_right_scroll_wrap"></div>
 </section>
 </body>    
 </html>
