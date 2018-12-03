@@ -23,7 +23,6 @@ body {
 #top_logo_wrap {
   width: 10em;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.5);
   float: left;
 }
 
@@ -37,7 +36,6 @@ body {
   width: 20em;
   height: 100%;
   float: left;
-  background-color: rgba(255, 255, 255, 0.5);
 }
 
 /**Navigation bar styling.**/
@@ -45,8 +43,6 @@ body {
   width: 100%;
   height: 4em;
   background-color: rgba(255, 255, 255, 0.5);
-  border-top: 1pt solid rgba(255, 255, 255, 0.5);
-  border-bottom: 1pt solid rgba(255, 255, 255, 0.5);
 }
 
 #left_navigation_button {
@@ -81,7 +77,6 @@ body {
 #middle_left_scroll_wrap {
   width: 20%;
   height: 100%;
-  background-color: rgb(120, 111, 33);
   float: left;
 }
 
@@ -92,14 +87,16 @@ body {
 #middle_picture_wrap {
   width: 60%;
   height: 100%;
-  background-color: rgb(255, 0, 0);
   float: left;
+}
+
+#slogan {
+  text-align: center;
 }
 
 #middle_right_scroll_wrap {
   width: 20%;
   height: 100%;
-  background-color: rgba(0, 255, 0, 0.5);
   float: left;
 }
 
@@ -111,6 +108,7 @@ body {
   width: 100px;
   height: 100px;
   border-radius: 50%;
+  display: none;
 }
 
 .middle_scroll_button:hover {
@@ -141,13 +139,12 @@ body {
 #bottom_profile_select {
   width: 100%;
   height: 11em;
-  background-color: rgba(210, 211, 33, 0.6);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 #bottom_picture_wrap {
   width: 57em;
   height: 100%;
-  background-color: aliceblue;
   margin: 0 auto;
 }
 
@@ -182,15 +179,15 @@ body {
   </div>
 </header>
 <nav id="navigation_bar">
-  <button id="left_navigation_button" class="navigation_button">Home</button>
+  <!-- <button id="left_navigation_button" class="navigation_button">Home</button> -->
 <!--  <button class="navigation_button">Help</button>-->
 <!--
   <button class="navigation_button">Find your partner</button>
   <button class="navigation_button">Testimonials</button>
   <button class="navigation_button">About</button>
 -->
-  <button id="baeButton" class="navigation_button">Browse Baes</button>
-  <button id="guyButton" class="navigation_button">Browse Guys</button>
+  <!-- <button id="baeButton" class="navigation_button">Browse Baes</button>
+  <button id="guyButton" class="navigation_button">Browse Guys</button> -->
 
 </nav>
 <!--Middle section of page-->
@@ -201,6 +198,9 @@ body {
     </div>
   </div>
   <div id="middle_picture_wrap">
+    <h1 id="slogan">Find your best match on campus<br/>
+    Your #1 source for baes at BCIT.
+    </h1>
 <!--
     <div class="div_girl">
       <img src="./images/bae1.jpg" alt="a bae" id="bae1" class="img_girl"/>
