@@ -112,9 +112,21 @@ body {
   display: none;
 }
 
+@keyframes scrollHover {
+  from 
+  {
+    width: 100px;
+    height: 100px;
+  }
+  to 
+  {
+    width: 104px;
+    height: 104px;
+  }
+}
+
 .middle_scroll_button:hover {
-  width: 104px;
-  height: 104px;
+  animation: scrollHover 1s forwards;
   cursor: pointer;
 }
 
@@ -149,6 +161,32 @@ body {
   margin: 0 auto;
 }
 
+.gallery_bae {
+  width: 130px;
+  height: 150px;
+  margin-left: 8em;
+}
+
+@keyframes buttonHover {
+  from 
+  {
+    width: 130px;
+    height: 150px;
+  }
+  to 
+  {
+    width: 135px;
+    height: 155px;
+    border: 1pt solid rgba(0, 0, 255, 0.3);
+  }
+}
+
+.gallery_bae:hover {
+  cursor: pointer;
+  animation: buttonHover 1s forwards;
+}
+
+
 .bae_list {
   display: none;     
 }
@@ -163,10 +201,10 @@ body {
 }
 
 .name_char{
-  font-size:16pt;
+  font-size: 16pt;
   font-weight: bold;
-  color: rgba(255, 255, 255, 0.9);
 }
+
 
 </style>  
 </head>
@@ -181,14 +219,6 @@ body {
   </div>
 </header>
 <nav id="navigation_bar">
-  <!-- <button id="left_navigation_button" class="navigation_button">Home</button> -->
-<!--  <button class="navigation_button">Help</button>-->
-<!--
-  <button class="navigation_button">Find your partner</button>
-  <button class="navigation_button">Testimonials</button>
-  <button class="navigation_button">About</button>
-
-<!--  <button id="guyButton" class="navigation_button">Browse Guys</button> -->
 
 </nav>
 <!--Middle section of page-->
@@ -203,13 +233,6 @@ body {
     Your #1 source for baes at BCIT.
     </h1>
     <button id="baeButton" class="navigation_button">Browse Baes</button> 
-<!--
-    <div class="div_girl">
-      <img src="./images/bae1.jpg" alt="a bae" id="bae1" class="img_girl"/>
-    </div>
-      
-    wrap name container, pictures, div class="div_girl" img class="img_girl" p class="name_girl" 
--->
   </div>
   <div id="middle_right_scroll_wrap">
     <div class="div_scroll_wrap">

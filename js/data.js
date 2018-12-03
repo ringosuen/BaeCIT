@@ -73,7 +73,7 @@ module.exports = {
     return listOfBaes;
   },
   
-  getgalleryofBaes: function() {
+  getgalleryOfBaes: function() {
     console.log("called: getgalleryOfBaes");
     return galleryOfBaes;
   }

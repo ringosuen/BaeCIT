@@ -38,9 +38,9 @@ app.get('/get-person', function (req, res) {
 app.get('/get-baeGallery', function (req, res) {
     let formatResponse = req.query['format'];
     let dataList = null;
-    if (formatResponse == 'girl-list') {
+    if (formatResponse == 'gallery-list') {
         res.setHeader("Content-Type", "application/json")
-        dataList = list.getgalleryofBaes();
+        dataList = list.getgalleryOfBaes();
         res.send(dataList);
         console.log("galleryOfBaes")
     }
