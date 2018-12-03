@@ -50,6 +50,7 @@ $(document).ready(function() {
         // don't allow the anchor to visit the link
         e.preventDefault();
         $('.middle_scroll_button').toggle();
+        $('#background_image').css('filter', 'blur(10px)');
         $.ajax({
             url: "get-person",
             dataType: "html",
