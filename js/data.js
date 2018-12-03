@@ -31,27 +31,27 @@ let galleryOfBaes =
   class: 'gallery_bae'
 },
 {
-  src: '../images/bae4.jpg',
+  src: '../images/bae4.png',
   alt: 'test_image',
   class: 'gallery_bae'
 },
 {
-  src: '../images/bae5.jpg',
+  src: '../images/bae5.jpeg',
   alt: 'test_image',
   class: 'gallery_bae'
 },
 {
-  src: '../images/bae6.jpg',
+  src: '../images/bae6.jpeg',
   alt: 'test_image',
   class: 'gallery_bae'
 },
 {
-  src: '../images/bae7.jpg',
+  src: '../images/bae7.jpeg',
   alt: 'test_image',
   class: 'gallery_bae'
 },
 {
-  src: '../images/bae8.jpg',
+  src: '../images/bae8.jpeg',
   alt: 'test_image',
   class: 'gallery_bae'
 },

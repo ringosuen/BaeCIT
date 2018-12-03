@@ -87,13 +87,9 @@ function populateGallery() {
                 galleryPic[i] = $('<img>').attr('src', jsonGallery[i].src).attr('alt', jsonGallery[i].alt).attr('class', jsonGallery[i].class);                
             }
             
-            for (let i = 0; i < 3; i++) {
+            for (let i = 0; i < 10; i++) {
                 gallery.append(galleryPic[i]);
             }
-            var firstGalleryPic = galleryPic[0];
-            var middleGalleryPic = galleryPic[1];
-            var lastGalleryPic = galleryPic[2];    
-
         },
         error: function(jqXHR, textStatus, errorThrown) {
             $("#p1").text(jqXHR.statusText);

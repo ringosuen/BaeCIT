@@ -159,12 +159,35 @@ body {
   width: 57em;
   height: 100%;
   margin: 0 auto;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow: hidden;
 }
 
+@keyframes scrollAnim {
+        0%  { left: 0em; top: 0em; } 
+        10%  { left: -17em; top: 0em; }
+        15% { left: -35em; top: 0em; }
+        20% { left: -53em; top: 0em; }
+        30% { left: -70em; top: 0em; }
+        35% { left: -88em; top: 0em; }
+        40% { left: -103em; top: 0em; }
+        50% { left: -104em; top: 0em; }
+        60% { left: -88em; top: 0em; }
+        65%  { left: -70em; top: 0em; }
+        70%  { left: -53em; top: 0em; }
+        80%  { left: -35em; top: 0em; }
+        90%  { left: -17em; top: 0em; }
+        100%  { left: 0em; top: 0em; }
+}
 .gallery_bae {
+  flex: 0 0 auto;
   width: 130px;
   height: 150px;
-  margin-left: 8em;
+  margin-left: 8.5em;
+  position: relative;
+  animation: scrollAnim 20s infinite;
 }
 
 @keyframes buttonHover {
@@ -183,7 +206,9 @@ body {
 
 .gallery_bae:hover {
   cursor: pointer;
-  animation: buttonHover 1s forwards;
+  width: 135px;
+  height: 155px;
+  border: 1pt solid rgba(0, 0, 255, 0.3);
 }
 
 
