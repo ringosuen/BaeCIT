@@ -17,7 +17,7 @@ body {
 #top_logo_title_section {
   width: 100%;
   height: 4em;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.35);
 }
 
 #top_logo_wrap {
@@ -42,7 +42,7 @@ body {
 #navigation_bar {
   width: 100%;
   height: 4em;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.35);
 }
 
 #left_navigation_button {
@@ -50,16 +50,16 @@ body {
 }
 
 .navigation_button {
-  width: 7em;
-  height: 100%;
-  margin: 0;
+  width: 10em;
+  height: 20%;
+  margin: 0 auto; 
+  display: block; 
   background-color: rgb(50, 119, 209);
   border-color: rgb(50, 119, 209);
   color: white;
   font-size: 16pt;
   font-weight: bold;
   font-family: 'Abel', sans-serif;
-  float: right;
 }
 
 .navigation_button:hover {
@@ -71,7 +71,7 @@ body {
 #middle_gallery_section {
   width: 100%;
   height: 26em;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.35);
 }
 
 #middle_left_scroll_wrap {
@@ -140,7 +140,7 @@ body {
 #bottom_profile_select {
   width: 100%;
   height: 11em;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.35);
 }
 
 #bottom_picture_wrap {
@@ -173,7 +173,8 @@ body {
 <body>
 <header id="top_logo_title_section">
   <div id="top_logo_wrap">
-    <img src="./images/logo.png" alt="Company logo" id="company_logo"/>
+    <a href="/">
+        <img src="./images/logo.png" alt="Company logo" id="company_logo" /> </a>
   </div>
   <div id="top_title_wrap">
     <h1 id="site_title">&nbsp;BaeCIT</h1>
@@ -186,9 +187,8 @@ body {
   <button class="navigation_button">Find your partner</button>
   <button class="navigation_button">Testimonials</button>
   <button class="navigation_button">About</button>
--->
-  <!-- <button id="baeButton" class="navigation_button">Browse Baes</button>
-  <button id="guyButton" class="navigation_button">Browse Guys</button> -->
+
+<!--  <button id="guyButton" class="navigation_button">Browse Guys</button> -->
 
 </nav>
 <!--Middle section of page-->
@@ -202,6 +202,7 @@ body {
     <h1 id="slogan">Find your best match on campus<br/>
     Your #1 source for baes at BCIT.
     </h1>
+    <button id="baeButton" class="navigation_button">Browse Baes</button> 
 <!--
     <div class="div_girl">
       <img src="./images/bae1.jpg" alt="a bae" id="bae1" class="img_girl"/>
