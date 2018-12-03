@@ -17,7 +17,7 @@ body {
 #top_logo_title_section {
   width: 100%;
   height: 4em;
-  background-color: rgba(255, 255, 255, 0.35);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 #top_logo_wrap {
@@ -42,7 +42,7 @@ body {
 #navigation_bar {
   width: 100%;
   height: 4em;
-  background-color: rgba(255, 255, 255, 0.35);
+  background-color: rgba(255, 255, 255, 0.0);
 }
 
 #left_navigation_button {
@@ -71,7 +71,7 @@ body {
 #middle_gallery_section {
   width: 100%;
   height: 26em;
-  background-color: rgba(255, 255, 255, 0.35);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 #middle_left_scroll_wrap {
@@ -152,7 +152,7 @@ body {
 #bottom_profile_select {
   width: 100%;
   height: 11em;
-  background-color: rgba(255, 255, 255, 0.35);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 #bottom_picture_wrap {
@@ -177,7 +177,7 @@ body {
   {
     width: 135px;
     height: 155px;
-    border: 1pt solid rgba(0, 0, 255, 0.3);
+    border: 1pt solid rgba(0, 0, 255, 0.1);
   }
 }
 
@@ -204,23 +204,39 @@ body {
   font-size: 16pt;
   font-weight: bold;
 }
+#slogan{
+    font-size: 45pt;
+    font-weight: bold; 
+    
+    }
+#navigation_bar img{
+    height: 40px;
+    width: 40px;
+    float: right;
+    margin-right: 1em;
+    margin-top: 2em;
 
+    }
 
 </style>  
 </head>
 <body>
 <header id="top_logo_title_section">
-  <div id="top_logo_wrap">
-    <a href="/">
-        <img src="./images/logo.png" alt="Company logo" id="company_logo" /> </a>
-  </div>
-  <div id="top_title_wrap">
-    <h1 id="site_title">&nbsp;BaeCIT</h1>
-  </div>
+    <div id="top_logo_wrap">
+<a href="/">
+     <img src="./images/logo.png" alt="Company logo" id="company_logo" /> </a>
+</div>
+    <div id="top_title_wrap">
+        <h1 id="site_title">&nbsp;BaeCIT</h1>
+</div>
+    <nav id="navigation_bar">
+        <img class="navicons" src="../images/fbicon.png">
+        <img class="navicons" src="../images/twittericon.png">
+        <img class="navicons" src="../images/igicon.png">
+        <img class="navicons" src="../images/youtubeicon.png">
+    </nav>
 </header>
-<nav id="navigation_bar">
 
-</nav>
 <!--Middle section of page-->
 <section id="middle_gallery_section">
   <div id="middle_left_scroll_wrap">
@@ -229,8 +245,8 @@ body {
     </div>
   </div>
   <div id="middle_picture_wrap">
-    <h1 id="slogan">Find your best match on campus<br/>
-    Your #1 source for baes at BCIT.
+    <h1 id="slogan">Find Your Best Match on Campus<br/>
+    Your #1 source for baes at BCIT
     </h1>
     <button id="baeButton" class="navigation_button">Browse Baes</button> 
   </div>

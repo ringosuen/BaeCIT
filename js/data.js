@@ -1,7 +1,7 @@
 //images of girls
 let listOfBaes = 
 "<ul id='container'>" +
-"<li><div class='show'><img src='../images/bae1.jpg' alt='test_image' class='img_char'><p class='name_char'>Janice</p></div></li>" +
+"<li><div class='show'><img src='../images/bae1.jpg' alt='test_image' class='img_char'><p class='name_char'>Shikori Miyokava </p></div></li>" +
 "<li><div class='bae_list'><img src='../images/bae2.jpg' alt='test_image' class='img_char'><p class='name_char'>Alice</p></div></li>" +
 "<li><div class='bae_list'><img src='../images/bae3.jpg' alt='test_image' class='img_char'><p class='name_char'>Karen</p></div></li>" +
 "<li><div class='bae_list'><img src='../images/bae4.png' alt='test_image' class='img_char'><p class='name_char'>Lizzy</p></div></li>" +
