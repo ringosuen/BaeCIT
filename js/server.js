@@ -35,6 +35,17 @@ app.get('/get-person', function (req, res) {
 }
 })
 
+app.get('/get-baeGallery', function (req, res) {
+    let formatResponse = req.query['format'];
+    let dataList = null;
+    if (formatResponse == 'girl-list') {
+        res.setHeader("Content-Type", "application/json")
+        dataList = list.getgalleryofBaes();
+        res.send(dataList);
+        console.log("galleryOfBaes")
+    }
+})  
+
 app.use(function (req, res, next) {
   res.status(404).send("Nothing there, 404.");
 })

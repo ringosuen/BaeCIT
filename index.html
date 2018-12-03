@@ -45,6 +45,8 @@ body {
   width: 100%;
   height: 4em;
   background-color: rgba(255, 255, 255, 0.5);
+  border-top: 1pt solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1pt solid rgba(255, 255, 255, 0.5);
 }
 
 #left_navigation_button {
@@ -141,16 +143,32 @@ body {
   height: 11em;
   background-color: rgba(210, 211, 33, 0.6);
 }
+
+#bottom_picture_wrap {
+  width: 57em;
+  height: 100%;
+  background-color: aliceblue;
+  margin: 0 auto;
+}
+
 .bae_list {
-    display: none;     
-    }
+  display: none;     
+}
+
 #container li{
-    list-style-type: none;
-    }
+  list-style-type: none;
+}
+
 .img_char{
-     width:300px;
-    height:300px;   
-    }
+  width:300px;
+  height:300px;   
+}
+
+.name_char{
+  font-size:16pt;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.9);
+}
 
 </style>  
 </head>
@@ -202,8 +220,7 @@ body {
   <div id="bottom_picture_wrap"></div>
   <div id="bottom_right_scroll_wrap"></div>
 </section>
-<script type='text/javascript' src='    ../js/node_modules/jquery/dist/jquery.min.js
-'></script>   
+<script type='text/javascript' src='../js/node_modules/jquery/dist/jquery.min.js'></script>   
         
 <script src="../js/client.js"></script>
 

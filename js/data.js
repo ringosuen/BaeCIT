@@ -13,18 +13,77 @@ let listOfBaes =
 "<li><div class='bae_list'><img src='../images/bae10.jpg' alt='test_image' class='img_char'><p class='name_char'>Sara</p></div></li>" 
 "</ul>";
 
-
+//let someOtherData = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
+let galleryOfBaes = 
+[{
+  src: '../images/bae1.jpg',
+  alt: 'test_image',
+  class: 'gallery_bae'
+},
+{
+  src: '../images/bae2.jpg',
+  alt: 'test_image',
+  class: 'gallery_bae'
+},
+{
+  src: '../images/bae3.jpg',
+  alt: 'test_image',
+  class: 'gallery_bae'
+},
+{
+  src: '../images/bae4.jpg',
+  alt: 'test_image',
+  class: 'gallery_bae'
+},
+{
+  src: '../images/bae5.jpg',
+  alt: 'test_image',
+  class: 'gallery_bae'
+},
+{
+  src: '../images/bae6.jpg',
+  alt: 'test_image',
+  class: 'gallery_bae'
+},
+{
+  src: '../images/bae7.jpg',
+  alt: 'test_image',
+  class: 'gallery_bae'
+},
+{
+  src: '../images/bae8.jpg',
+  alt: 'test_image',
+  class: 'gallery_bae'
+},
+{
+  src: '../images/bae9.jpg',
+  alt: 'test_image',
+  class: 'gallery_bae'
+},
+{
+  src: '../images/bae10.jpg',
+  alt: 'test_image',
+  class: 'gallery_bae'
+}];
 
 module.exports = {
   // HTML
   getlistOfBaes: function() {
     console.log("called: getlistOfBaes");
     return listOfBaes;
-  } 
+  },
+  
+  getgalleryofBaes: function() {
+    console.log("called: getgalleryOfBaes");
+    return galleryOfBaes;
+  }
+  // getlistofGuys: function() {
+  //   console.log("called: getlistofGuys");
+  //   return listofGuys;
+  // }
 };
 
 //
-//let someOtherData = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
 //
 //module.exports = {
 //  getHTML: function () {
