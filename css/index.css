@@ -261,10 +261,13 @@ body {
 @media screen and (max-width: 1700px) {
   .name_char {
     margin-top: 1em;
+    width: 8em;
   }
 }
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1250px) {
     .name_char{
+      margin-top: 0em;
+      float: left;
       display: none;
     }
     .img_char{
