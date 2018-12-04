@@ -256,56 +256,71 @@ body {
  /************************************************************************************
       MEDIA QUERIES
 *************************************************************************************/
-@media screen and (max-width: 1250px) {
+
+@media screen and (max-width: 1700px) {
+  .name_char {
+    margin-top: 1em;
+  }
+}
+@media screen and (max-width: 1400px) {
     .name_char{
-    display: none; 
+      display: none;
     }
     .img_char{
-    width: auto; 
-    height: 20em;
-    float: left;
-    margin-left: 20%;
-    }
+      width: auto; 
+      height: 20em;
+      float: left;
+      margin-left: 20%;
+      }
     }
 @media screen and (max-width: 750px) {
     .name_char{
-    display: none; 
+      display: none; 
     }
     .img_char{
-    width: auto; 
-    height: 18em;
-    float: left;
+      width: auto; 
+      height: 18em;
+      float: left;
     }
     #top_title_wrap {
-  width: 25%;
-  height: 100%;
-  float: left;
+      width: 25%;
+      height: 100%;
+      float: left;
     }
     
 @media screen and (max-width: 680px) {
     .img_char{
-    width: auto; 
-    height: 12em; 
+      width: auto; 
+      height: 12em; 
     }
     
     #middle_gallery_section{
-        margin-top: 10%;
+      margin-top: 10%;
               
     }
     .middle_scroll_button{
-        width: auto;
-        height:4em;
+      width: auto;
+      height:4em;
     }
+    
     #navigation_bar{
       display: none;
     }
     
-   @media screen and (max-width: 550px) {
+@media screen and (max-width: 550px) {
+  
    .img_char{
-    width: auto; 
-    height: 7em; 
-    float: left;
-    margin-left: 2em;
+      width: auto; 
+      height: 7em; 
+      float: left;
+      margin-left: 2em;
+    }
+    .middle_scroll_button {
+      animation: none;
+    }
+
+    #top_logo_wrap {
+      margin-left: 25%;
     }
  
   }
