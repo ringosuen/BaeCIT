@@ -5,6 +5,7 @@ body {
   width: auto;
   height: 45em;
   font-family: 'Abel', sans-serif;
+  overflow-x: hidden;
 }
 
 #background_image {
@@ -296,7 +297,8 @@ body {
     
     #middle_gallery_section{
       margin-top: 10%;
-              
+      height: 40%;
+
     }
     .middle_scroll_button{
       width: auto;
@@ -317,6 +319,15 @@ body {
     }
     .middle_scroll_button {
       animation: none;
+    }
+
+    #middle_gallery_section {
+      height: 30%;
+    }
+    
+    .gallery_bae {
+      width: 100px;
+      height: 120px;
     }
 
     #top_logo_wrap {
